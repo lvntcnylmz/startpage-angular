@@ -1,0 +1,27 @@
+#search-input {
+    background: linear-gradient(#7b6d84, #7b6d84),
+        linear-gradient(#00A878, #00A878);
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 500ms ease;
+    border: none;
+    outline: none;
+    color: #c4c0c0;
+    padding: 0.6em 0;
+    width: 100%;
+
+}
+
+::placeholder {
+    color: #7b6d84;
+}
+
+#search-input:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+    border: none;
+    outline: none;
+    color: #c4c0c0;
+
+}
+
